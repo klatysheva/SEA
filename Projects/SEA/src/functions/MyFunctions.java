@@ -1,10 +1,6 @@
 package functions;
 
 public class MyFunctions {
-    public static void main(String[] args) {
-        isEven(6);
-    }
-
     static boolean isEven (int num) {
         if (num == 0) {
             System.out.println("It's 0!");
