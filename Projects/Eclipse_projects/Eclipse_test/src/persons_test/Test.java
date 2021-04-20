@@ -1,4 +1,4 @@
-package java_lang_Object;
+package persons_test;
 
 public class Test {
     public static void main(String[] args) {
