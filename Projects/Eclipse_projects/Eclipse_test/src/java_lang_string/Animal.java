@@ -1,4 +1,4 @@
-package persons_test;
+package java_lang_string;
 public class Animal {
     private String species;
 
