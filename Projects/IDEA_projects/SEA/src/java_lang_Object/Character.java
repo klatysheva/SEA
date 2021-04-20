@@ -13,27 +13,27 @@ public class Character {
         this.content = content;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (obj == null) // null check
+    public boolean equals(Character character) {
+        if (character == null) // null check
         {
             return false;
         }
-        if (this == obj) // self check
+        if (this == character) // self check
         {
             return true;
         }
-        if (getClass() != obj.getClass()) {// class type check
+        if (getClass() != character.getClass()) {// class type check
             System.out.println("Objects of different classes");
             return false;
         }
-        if (this.hashCode() != obj.hashCode()) // hash code check
+        if (this.hashCode() != character.hashCode()) // hash code check
         {
             return false;
         }
+        return content == character.content;
         // type check and cast
-        Character character = (Character) obj; // cast to
-        return Objects.equals(content, character.content);
+        //Character character = (Character) obj; // cast to
+        //return Objects.equals(content, character.content);
     }
 
     public int hashCode () {

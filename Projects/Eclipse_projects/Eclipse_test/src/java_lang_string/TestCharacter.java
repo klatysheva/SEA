@@ -31,9 +31,5 @@ public class TestCharacter {
         System.out.println(character4.equals(character2));
         System.out.println(character4.equals(character3));
         System.out.println(character4.equals(character5));
-
     }
-
-
-
 }
