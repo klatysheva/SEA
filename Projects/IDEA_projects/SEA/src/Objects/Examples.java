@@ -1,6 +1,4 @@
-package Objects;
-
-import org.w3c.dom.ls.LSOutput;
+package objects;
 
 public class Examples {
     public static void main(String[] args) {
