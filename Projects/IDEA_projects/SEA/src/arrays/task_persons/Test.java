@@ -33,8 +33,9 @@ public class Test {
        group1.showPersonsCount();
        group1.addPerson(person5);
        group1.showPersonsCount();
-//       group1.persons[4] = new Person();
-//       group1.persons[4].setSurname("Sam")
+       //not relevant anymore, just to check if PersonsGroup.persons is private
+       //group1.persons[4] = new Person();
+       //group1.persons[4].setSurname("Sam");
        group1.showFullPersonsList();
 
 

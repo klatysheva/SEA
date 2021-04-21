@@ -1,12 +1,12 @@
 package arrays.task_persons;
 
 public class PersonsGroup {
-    Person[] persons = new Person [5];
+    private Person[] persons = new Person [5];
 
     public boolean deletePerson (Person person) {
         System.out.println("############### Delete person: ######################");
         int i = 0;
-        while (!(persons[i].equals(person) || i == persons.length)) i++;
+        while (!(persons[i].equals(person) || i == (persons.length-1))) i++;
         if (person.equals(persons[i])) {
             persons[i] = null;
             System.out.println("Deleting element... #" + i);
