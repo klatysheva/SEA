@@ -5,6 +5,10 @@ public class PersonsGroup {
 
     public boolean deletePerson (Person person) {
         System.out.println("############### Delete person: ######################");
+        if (person == null) {
+            System.out.println("It's null. Can't be deleted.");
+            return false;
+        }
         int i = 0;
         while (!(persons[i].equals(person) || i == (persons.length-1))) i++;
         if (person.equals(persons[i])) {

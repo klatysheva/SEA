@@ -38,7 +38,7 @@ public class Person /* extends Object */ {
             return true;
         }
         if (getClass() != obj.getClass()) {// type check
-            System.out.println("Objects of different classes");
+            //System.out.println("Objects of different classes");
             return false;
         }
 
