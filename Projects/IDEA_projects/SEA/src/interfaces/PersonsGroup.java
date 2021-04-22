@@ -1,7 +1,7 @@
-package arrays.task_persons;
+package interfaces;
 
-public class PersonsGroup {
-    private Person[] persons = new Person [5];
+public class PersonsGroup implements PersonsInterface {
+    private Person[] persons = new Person[5];
 
     public boolean deletePerson (Person person) {
         System.out.println("############### Delete person: ######################");

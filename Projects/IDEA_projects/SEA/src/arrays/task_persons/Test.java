@@ -73,6 +73,7 @@ public class Test {
        group1.showPersonsCount();
        group1.showFullPersonsList();
 
+       group1.deletePerson(person2);
        group1.deletePerson(person3);
        group1.showPersonsCount();
        group1.showFullPersonsList();
@@ -81,5 +82,7 @@ public class Test {
        group1.showPersonsCount();
        group1.showFullPersonsList();
        group1.showPersonsList();
+       group1.clearList();
+       group1.showFullPersonsList();
     }
 }
