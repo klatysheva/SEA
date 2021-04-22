@@ -23,6 +23,10 @@ public class PersonsGroup {
 
     public boolean addPerson (Person person) {
         System.out.println("############### Add person: #########################");
+        if (person == null) {
+            System.out.println("It's null. Can't be added.");
+            return false;
+        }
         for (int i = 0; i < persons.length; i++) {
             if (persons[i] != null && persons[i].equals(person)) {
                 System.out.println("Person is already in the list by #" + (i+1));
@@ -35,7 +39,6 @@ public class PersonsGroup {
             return true;
         }
         return false;
-
     }
     public int personsCount () {
         int i =0;
@@ -52,7 +55,8 @@ public class PersonsGroup {
         return persons[i-1];
     }
     public  void showFullPersonsList() {
-        System.out.println("############### Persons List: #######################");
+        System.out.println("############### Persons List( +nulls and references #");
+        System.out.println("############### with nulls and references ###########");
         for (int i = 0; i < persons.length; i++){
             System.out.print((i+1) + ". " + persons[i]);
             if (persons[i] != null) {
@@ -66,10 +70,10 @@ public class PersonsGroup {
 
     }
     public  void showPersonsList () {
-        System.out.println("############### Persons List: #######################");
+        System.out.println("############### Persons List  #######################");
         for (int i = 0; i < persons.length; i++){
             if (persons[i] != null) {
-                System.out.println((i+1) + ". " + persons[i] +": " + persons[i].getSurname() + " " + persons[i].getName());
+                System.out.println((i+1) + ". " + persons[i].getSurname() + " " + persons[i].getName());
             }
         }
         System.out.println("Persons count: " + personsCount());

@@ -25,6 +25,7 @@ public class Test {
        //adding persons into the group:
        group1.addPerson(person1);
        group1.showPersonsCount();
+       group1.addPerson(null);
        group1.addPerson(person1);
        group1.showPersonsCount();
        group1.addPerson(person2);
