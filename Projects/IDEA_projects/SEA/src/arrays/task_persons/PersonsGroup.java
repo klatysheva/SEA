@@ -23,6 +23,12 @@ public class PersonsGroup {
 
     public boolean addPerson (Person person) {
         System.out.println("############### Add person: #########################");
+        for (int i = 0; i < persons.length; i++) {
+            if (persons[i] != null && persons[i].equals(person)) {
+                System.out.println("Person is already in the list by #" + (i+1));
+                return false;
+            }
+        }
         if (personsCount() < persons.length ) {
             persons [personsCount()] = person;
             System.out.println(person.getSurname() + " " + person.getName()  + " added to the list under #" + personsCount());
