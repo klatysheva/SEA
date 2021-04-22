@@ -21,6 +21,9 @@ public class Test {
        Person person5 =new Person();
        person5.setName("Sam");
        person5.setSurname("Martin");
+       Person person6 =new Person();
+       person5.setName("Susi");
+       person5.setSurname("White");
 
        //adding persons into the group:
        group1.addPerson(person1);
@@ -36,6 +39,8 @@ public class Test {
        group1.addPerson(person4);
        group1.showPersonsCount();
        group1.addPerson(person5);
+       group1.showPersonsCount();
+       group1.addPerson(person6);
        group1.showPersonsCount();
        //not relevant anymore, just to check if PersonsGroup.persons is private
        //group1.persons[4] = new Person();
