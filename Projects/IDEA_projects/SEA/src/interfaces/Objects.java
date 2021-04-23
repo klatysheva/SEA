@@ -7,3 +7,4 @@ public class Objects {
         return java.util.Objects.equals(a, b);
     }
 }
+

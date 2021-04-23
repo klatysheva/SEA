@@ -2,37 +2,51 @@ package interfaces;
 
 public class Test {
     public static void main(String[] args) {
-      PersonsInterface interface1 = new PersonsGroupNew(); //VerwaltungsInterface
-      PersonsGroupNew interface2 = new PersonsGroupNew();
-      PersonsGroup interface3 = new PersonsGroup();
+      IList personsList = (IList) new PersonsList();
 
-      Person person1 =new Person(); //Teilnehmer
-      person1.setName("Alex"); //setVorname
-      person1.setSurname("Anderson"); //setNachname
+      Person person1 =new Person();
+      person1.setName("Alex");
+      person1.setSurname("Anderson");
       Person person2 =new Person();
       person2.setName("Anthony ");
       person2.setSurname("Clark");
       Person person3 =new Person();
       person3.setName("John");
       person3.setSurname("Robinson");
+      Person person4 =new Person();
+      person4.setName("Sam");
+      person4.setSurname("Martin");
+      Person person5 =new Person();
+      person5.setName("Susi");
+      person5.setSurname("White");
 
-      interface1.addPerson(person1); //anmelden
-      System.out.println(interface1.getPerson(1)); //getTeilnehmer
-      System.out.println(interface1.personsCount()); // teilnehmerAnzahl oder so
-      System.out.println(interface1.deletePerson(person1)); //abmelden
+      Animal cat1 = new Animal("F. catus");
 
-      interface2.addPerson(person2);
-      System.out.println(interface2.getPerson(0));
-      interface2.personsCount();
-      System.out.println(interface2.personsCount());
-      System.out.println(interface1.deletePerson(person2));
+      personsList.showSize();
+      personsList.add(person1);
+      personsList.add(person2);
+      personsList.add(person3);
+      personsList.add(person3);
+      personsList.add(cat1);
+      personsList.add(person4);
+      personsList.showSize();
+      personsList.add(person5);
+      personsList.showSize();
 
-      interface3.addPerson(person3);
-      System.out.println(interface3.getPerson(1));
-      interface3.personsCount();
-      System.out.println(interface3.personsCount());
-      System.out.println(interface3.deletePerson(person1));
+      personsList.showList();
+      personsList.remove(person1);
+      personsList.remove(person1);
+      personsList.remove(cat1);
+      personsList.remove(0);
+      personsList.showList();
 
+      personsList.showList();
+      personsList.showFullList();
+      personsList.remove(0);
+      personsList.showFullList();
+      personsList.clear();
+      personsList.showFullList();
+      personsList.clear();
 
     }
 }

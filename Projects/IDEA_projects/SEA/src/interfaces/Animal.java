@@ -1,8 +1,6 @@
-package java_lang_Object;
+package interfaces;
 
-import interfaces.Person;
-
-public class Animal extends Person {
+public class Animal {
     private String species;
 
     public Animal(String species) {
