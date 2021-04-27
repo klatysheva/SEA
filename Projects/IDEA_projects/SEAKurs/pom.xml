@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>de.telekom.sea.seminar.Main</mainClass>
+                            <mainClass>de.telekom.sea.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
