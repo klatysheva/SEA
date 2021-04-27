@@ -19,7 +19,7 @@ public class SeminarApp extends Child {
         System.out.println("Parent (for SeminarApp): " + this.getParent());
         System.out.println("Parent (for person): " + person.getParent());
         System.out.println("This: " + this);
-        this.setParent(new Person("parent"));
+        this.setParent(new Person ());
         System.out.println("getParent (this): " + this.getParent());
         System.out.println("getParent (person): " + person.getParent());
     }

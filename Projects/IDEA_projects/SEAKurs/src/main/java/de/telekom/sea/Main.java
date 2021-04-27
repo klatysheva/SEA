@@ -8,6 +8,6 @@ public class Main {
         System.out.println(app);
         app.run(args, "Ann");
         app.run(args, "Sasha");
-        System.out.println(app.getParent());
+
     }
 }
