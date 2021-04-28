@@ -1,7 +1,7 @@
 package menu_task;
 
 public class PersonsList implements IList {
-    private Object[] persons = new Person[4];
+    private Object[] persons = new Person[3];
 
     public boolean add (Object obj) {
         System.out.println("############### Add person: #########################");
@@ -41,7 +41,7 @@ public class PersonsList implements IList {
             System.out.println("List is already leer. Nothing to clear." );
             return;
         }
-        persons = new Person[5];
+        persons = new Person[persons.length];
         System.out.println("All elements are removed from the list. List is leer now.");
         System.out.println();
     }
