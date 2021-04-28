@@ -42,17 +42,13 @@ public class PersonsList implements IList {
             return;
         }
         persons = new Person[5];
-        //alternative, not good, too risky:
-//        for (int i = 0; i < persons.length; i++) {
-//            persons[i] = null;
-//        }
         System.out.println("All elements are removed from the list. List is leer now.");
         System.out.println();
     }
 
     public Person get(int i) {
-        if ((i > 0) && (i < persons.length)) {
-            System.out.println(persons[i]);
+        if ((i >= 0) && (i < persons.length)) {
+            //System.out.println(persons[i]);
             return (Person) persons[i];
         }
         System.out.println("Wrong index. Index must be in the range from 0 to " + (persons.length));
@@ -108,38 +104,6 @@ public class PersonsList implements IList {
         int i =0;
         while (i < persons.length && persons[i]!=null ) i++;
         return i;
-    }
-
-    public  void showFullList() {
-        System.out.println("############### Persons List(+nulls and references) #");
-        for (int i = 0; i < persons.length; i++){
-            Person person = (Person) persons[i];
-            System.out.print((i+1) + ". " + person);
-            if (persons[i] != null) {
-                System.out.println(": " + person.getSurname() + " " + person.getName());
-            }
-            else {
-                System.out.println();
-            }
-        }
-        System.out.println("Persons count: " + size() + ".");
-        System.out.println();
-    }
-    public  void showList () {
-        System.out.println("############### Persons List  #######################");
-        for (int i = 0; i < persons.length; i++){
-            if (persons[i] != null) {
-                Person person = (Person) persons[i];
-                System.out.println((i+1) + ". " + person.getSurname() + " " + person.getName());
-            }
-        }
-        System.out.println("Persons count: " + size() + ".");
-        System.out.println();
-    }
-
-    public void showSize() {
-        System.out.println("There are " + size() + " element(s) in the list.");
-        System.out.println();
     }
 
 }

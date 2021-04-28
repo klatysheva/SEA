@@ -11,58 +11,59 @@ public class PersonsMenu implements IMenu{
         System.out.println("setList successful. list: " + list);
     }
 
-    @Override
-    public void selectOption() { //keepAsking
-        showMenu();
-        checkMenu();
-    }
-
     public void showMenu() {
-        System.out.println("1 - show menu");
-        System.out.println("2 - input person");
+        System.out.println("Select option:");
+        System.out.println("1 - input person");
+        System.out.println("2 - show size");
         System.out.println("3 - list all persons");
         System.out.println("4 - remove all");
         System.out.println("0 - exit");
 
     }
 
-    public String inputMenu() {
+    public String inputLine() {
         String result = "";
-        System.out.println("Enter your number. To see all options input 1.");
         Scanner scanner = new Scanner(System.in);
         result = scanner.nextLine();
         return result;
     }
 
-    public void checkMenu() {
-        var result = "";
+    public void selectOption() { //keepAsking
+        String result;
         do {
-            result = inputMenu();
-            switch (result) {
-                case "1":
-                    System.out.println("It's 1. Show menu.");
-                    showMenu();
-                    break;
-                case "2":
-                    System.out.println("It's 2. Input person.");
-                    inputPerson();
-                    break;
-                case "3":
-                    System.out.println("It's 3. List all persons.");
-                    listAllPerson();
-                    break;
-                case "4":
-                    System.out.println("It's 4. Remove all.");
-                    removeAll();
-                    break;
-                case "0":
-                    System.out.println("It's 0. Exit.");
-                    break;
-                default:
-                    System.out.println("Please chose an valid number. To show all options input 1. 0 to exit.");
-            }
+            showMenu();
+            result = checkMenu();
         }
         while (!result.equals("0"));
+    }
+
+    private String checkMenu() {
+        String result;
+        result = inputLine();
+        switch (result) {
+            case "1":
+                System.out.println("It's 1. Input person.");
+                inputPerson();
+                break;
+            case "2":
+                System.out.println("It's 2. Show size.");
+                showSize();
+                break;
+            case "3":
+                System.out.println("It's 3. List all persons.");
+                showList(); //listAllPerson
+                break;
+            case "4":
+                System.out.println("It's 4. Remove all.");
+                removeAll();
+                break;
+            case "0":
+                System.out.println("It's 0. Exit.");
+                break;
+            default:
+                System.out.println("Please chose an valid number. To show all options input 1. 0 to exit.");
+        }
+        return result;
     }
 
     public void inputPerson() {
@@ -79,32 +80,40 @@ public class PersonsMenu implements IMenu{
 
     }
 
-    public  void listAllPerson() {
-//        System.out.println("############### Persons List  #######################");
-//        for (int i = 0; i < list.length; i++){
-//            if (list[i] != null) {
-//                Person person = (Person) list[i];
-//                System.out.println((i+1) + ". " + person.getSurname() + " " + person.getName());
-//            }
-//        }
-//        System.out.println("Persons count: " + size() + ".");
-//        System.out.println();
+    public void removeAll () {
+        list.clear();
     }
 
-//    public int size() {
-//        int i =0;
-//        while (i < list.length && list[i]!=null ) i++;
-//        return i;
-//    }
-//
-    public void removeAll () {
-//        System.out.println("############### Clear list: #########################");
-//        if (size() == 0) {
-//            System.out.println("List is already leer. Nothing to clear." );
-//            return;
-//        }
-//        //list = new PersonsList();
-//        System.out.println("All elements are removed from the list. List is leer now.");
-//        System.out.println();
+    public  void showList() { //listAllPerson doesn't show last element
+        System.out.println("############### Persons List  #######################");
+        for (int i = 0; i < list.size();  i++){
+            if (list.get(i) != null) {
+                Person person = (Person) list.get(i);
+                System.out.println((i+1) + ". " + person.getSurname() + " " + person.getName());
+            }
+        }
+        System.out.println("Persons count: " + list.size() + ".");
+        System.out.println();
     }
+
+    public void showSize() {
+        System.out.println("There are " + list.size() + " element(s) in the list.");
+        System.out.println();
+    }
+
+//    public  void showFullList() {
+//        System.out.println("############### Persons List(+nulls and references) #");
+//        for (int i = 0; i < list.size(); i++){
+//            Person person = (Person) list.get(i);
+//            System.out.print((i+1) + ". " + person);
+//            if (list.get(i) != null) {
+//                System.out.println(": " + person.getSurname() + " " + person.getName());
+//            }
+//            else {
+//                System.out.println();
+//            }
+//        }
+//        System.out.println("Persons count: " + list.size() + ".");
+//        System.out.println();
+//    }
 }

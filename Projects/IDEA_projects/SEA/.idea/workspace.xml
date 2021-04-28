@@ -2,50 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e24375-139d-49c7-912f-2ef9ef67a8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/menu_task/ClassWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu_task/IList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu_task/IMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu_task/Objects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu_task/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu_task/PersonsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu_task/PersonsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menu_task/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/Objects/Examples$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Objects/Examples$Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/Objects/Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Objects/Examples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/Objects/Integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Objects/Integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/Objects/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Objects/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/Quests/Quest853/noticeMe/Senpai.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Quests/Quest853/noticeMe/Senpai.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/arrays/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/arrays/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/arrays/MyArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/arrays/MyArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/arrays/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/arrays/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/arrays/task_persons/Objects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/arrays/task_persons/Objects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/arrays/task_persons/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/arrays/task_persons/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/arrays/task_persons/PersonsGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/arrays/task_persons/PersonsGroup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/arrays/task_persons/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/arrays/task_persons/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/controlFlow/ControlFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/controlFlow/ControlFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/controlFlow/Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/controlFlow/Examples.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/functions/MathFunctionsBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/functions/MathFunctionsBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/functions/MyFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/functions/MyFunctions.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/functions/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/functions/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/interfaces/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/interfaces/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/interfaces/IList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/interfaces/IList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/interfaces/Objects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/interfaces/Objects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/interfaces/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/interfaces/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/interfaces/PersonsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/interfaces/PersonsList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/interfaces/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/interfaces/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/interfaces/otherPersonGroup/PersonsGroupNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/interfaces/otherPersonGroup/PersonsGroupNew.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/interfaces/otherPersonGroup/PersonsInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/interfaces/otherPersonGroup/PersonsInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Objects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Objects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/TestCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/java_lang_Object/TestCharacter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/operators/Operators.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/operators/Operators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Examples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Objects/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objects/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/ClassWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/IList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/IMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/Objects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/PersonsList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/PersonsMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu_task/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/IList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu_task/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu_task/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/PersonsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu_task/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/PersonsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu_task/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

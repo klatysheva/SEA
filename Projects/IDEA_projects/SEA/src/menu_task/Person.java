@@ -6,10 +6,11 @@ public class Person /* extends Object */ {
 
     public Person() {
     }
-    public Person(String name, String surname, int age) {
+    public Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
     }
+
 
     public void setName(String name) {
         this.name = name;

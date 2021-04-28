@@ -23,13 +23,4 @@ public interface IList {
     //returns the number of elements in this list
     int size ();
 
-    // show all elements inkl. null +references
-    void showFullList ();
-
-    // show all not-null-elements
-    void showList ();
-
-    //show how many elements are in the list
-    void showSize();
-
 }
