@@ -4,6 +4,7 @@ public class Test {
     public static void main(String[] args) {
         PersonsMenu menu = new PersonsMenu();
         IList list = new PersonsList();
+
         Person person = new Person("Ann", "Walker");
         Person person1 = new Person("Alex", "Anderson");
         Person person2 = new Person("Anthony", "Clark");

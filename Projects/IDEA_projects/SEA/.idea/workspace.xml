@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="85e24375-139d-49c7-912f-2ef9ef67a8f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/ClassWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/IList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/IMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/Objects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/PersonsList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/PersonsMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/utils/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/IList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu_task/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/PersonsList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/menu_task/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/PersonsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu_task/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -16,7 +16,8 @@ public class PersonsMenu implements IMenu{
         System.out.println("1 - input person");
         System.out.println("2 - show size");
         System.out.println("3 - list all persons");
-        System.out.println("4 - remove all");
+        System.out.println("4 - remove person by its index");
+        System.out.println("5 - remove all");
         System.out.println("0 - exit");
 
     }
@@ -54,7 +55,11 @@ public class PersonsMenu implements IMenu{
                 showList(); //listAllPerson
                 break;
             case "4":
-                System.out.println("It's 4. Remove all.");
+                System.out.println("It's 4. Remove person.");
+                removePerson();
+                break;
+            case "5":
+                System.out.println("It's 5. Remove all.");
                 removeAll();
                 break;
             case "0":
@@ -82,6 +87,12 @@ public class PersonsMenu implements IMenu{
 
     public void removeAll () {
         list.clear();
+    }
+
+    public void removePerson () {
+        System.out.println("Input person's index: ");
+        int i = Integer.parseInt(inputLine());
+        list.remove(i);
     }
 
     public  void showList() { //listAllPerson doesn't show last element

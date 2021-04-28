@@ -86,10 +86,11 @@ public class PersonsList implements IList {
 
     public boolean remove (int index) {
         System.out.println("############### Delete person: ######################");
-        if ((index > 0) && (index < persons.length)) {
+        if ((index >= 0) && (index < persons.length)) {
             for (int i = index; i<(persons.length-1); i++) {
                 persons [i] = persons [i+1];
             }
+            persons [persons.length-1] = null;
             System.out.println("Element #" + (index+1) + " was deleted from the list.");
             return true;
         }
