@@ -16,7 +16,7 @@ public class PersonsMenu implements IMenu{
         System.out.println("1 - input person");
         System.out.println("2 - show size");
         System.out.println("3 - list all persons");
-        System.out.println("4 - remove person by its index");
+        System.out.println("4 - remove person by its index or name&surname");
         System.out.println("5 - remove all");
         System.out.println("0 - exit");
 
@@ -26,6 +26,13 @@ public class PersonsMenu implements IMenu{
         String result = "";
         Scanner scanner = new Scanner(System.in);
         result = scanner.nextLine();
+        return result;
+    }
+
+    public int inputInt() {
+        int result;
+        Scanner scanner = new Scanner(System.in);
+        result = scanner.nextInt();
         return result;
     }
 
@@ -90,9 +97,25 @@ public class PersonsMenu implements IMenu{
     }
 
     public void removePerson () {
-        System.out.println("Input person's index: ");
-        int i = Integer.parseInt(inputLine());
-        list.remove(i);
+        System.out.println("To delete person by element's index input '1', by name&surname - '2' ");
+        String option = inputLine();
+        switch (option) {
+            case "1":
+                System.out.println("Input person's index: ");
+                int i = Integer.parseInt(inputLine());
+                list.remove(i);
+                break;
+            case "2":
+                System.out.println("Input person's name: ");
+                String name = inputLine();
+                System.out.println("Input person's surname: ");
+                String surname = inputLine();
+                list.remove(name, surname);
+                break;
+            default:
+                System.out.println("Invalid option. Returned to main menu.");
+                break;
+        }
     }
 
     public  void showList() { //listAllPerson doesn't show last element

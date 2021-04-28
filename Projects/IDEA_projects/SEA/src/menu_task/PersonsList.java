@@ -34,7 +34,6 @@ public class PersonsList implements IList {
         return false;
     }
 
-
     public void clear () {
         System.out.println("############### Clear list: #########################");
         if (size() == 0) {
@@ -81,6 +80,27 @@ public class PersonsList implements IList {
             }
         }
         System.out.println("Can't be deleted. " + person.getName() + " " + person.getSurname() + "is not found in the list.");
+        return false;
+    }
+    public boolean remove (String name, String surname) {
+        System.out.println("############### Delete person: ######################");
+        if ((name == null) || (surname == null)) {
+            System.out.println("Name or surname is null. Can't be deleted.");
+            return false;
+        }
+        for (int i = 0; i < size(); i++) {
+            Person person = (Person) persons[i];
+            if (person != null && name.equals(person.getName()) && surname.equals(person.getSurname())) {
+                System.out.println("Deleting element #" + i +"...");
+                for (int j = i; j<(persons.length-1); j++) {
+                    persons [j] = persons [j+1];
+                }
+                persons [persons.length-1] = null;
+                System.out.println("Element #" + i + " was deleted from the list (" + person.getName() + " " + person.getSurname() + ").");
+                return true;
+            }
+        }
+        System.out.println("Can't be deleted. " + name + " " + surname + "is not found in the list.");
         return false;
     }
 

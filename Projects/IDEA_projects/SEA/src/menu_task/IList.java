@@ -16,6 +16,10 @@ public interface IList {
     removes the element at the specified position in this list */
     boolean remove(int i);
 
+    /* i: index of element
+    removes the element by two specified String arguments*/
+    boolean remove(String firstArg, String secondArg);
+
     /* object: reference to Object (null is not allowed),
     removes the first occurrence of the specified element from this list, if it is present */
     boolean remove(Object object);
