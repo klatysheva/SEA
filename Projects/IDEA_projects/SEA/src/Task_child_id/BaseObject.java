@@ -10,6 +10,10 @@ public class BaseObject {
         this.id = ++idCounter;
     }
 
+    public void setId(long id) {
+        this.id = id;
+    }
+
     public Long getId() {
         return id;
     }

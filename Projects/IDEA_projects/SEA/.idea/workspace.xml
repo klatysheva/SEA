@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e24375-139d-49c7-912f-2ef9ef67a8f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Task_child_id/BaseObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_menu/IList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_menu/IMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_menu/Objects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_menu/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_menu/PersonsList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_menu/PersonsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Task_menu/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/menu_task/ClassWork.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/menu_task/IList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/menu_task/IMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/menu_task/Objects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/menu_task/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/menu_task/PersonsList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/menu_task/PersonsMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/menu_task/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_menu/ClassWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/IList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/IMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/IMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/Objects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/PersonsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/PersonsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu_task/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_child_id/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_child_id/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_child_id/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +123,39 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Task_child_id/BaseObject.java</url>
+          <line>29</line>
+          <properties class="Task_child_id.BaseObject" method="equals">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Task_child_id/BaseObject.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Task_child_id/BaseObject.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Task_child_id/BaseObject.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Task_child_id/BaseObject.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Task_child_id/BaseObject.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
