@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e24375-139d-49c7-912f-2ef9ef67a8f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Quests/Quest856/ArraysAndItteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quests/Quest856/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quests/Quest856/Movies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/BaseObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_child_id/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_child_id/Test_BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_menu/Test_MenuApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Movies_V2">
     <configuration name="ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Task_menu.ClassWork" />
       <module name="SEA" />
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_menu.Test" />
+    <configuration name="Movies_V2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quests.Quest856.Movies_V2" />
       <module name="SEA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task_menu.*" />
+          <option name="PATTERN" value="Quests.Quest856.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_child_id.Test" />
+    <configuration name="Test_BaseObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_child_id.Test_BaseObject" />
       <module name="SEA" />
       <extension name="coverage">
         <pattern>
@@ -89,10 +91,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_MenuApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task_menu.Test_MenuApp" />
+      <module name="SEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task_menu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Movies_V2" />
+        <item itemvalue="Application.Test_BaseObject" />
+        <item itemvalue="Application.Test_MenuApp" />
         <item itemvalue="Application.ClassWork" />
       </list>
     </recent_temporary>

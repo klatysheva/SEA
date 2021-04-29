@@ -1,6 +1,6 @@
 package Task_menu;
 
-public class Test {
+public class Test_MenuApp {
     public static void main(String[] args) {
         PersonsMenu menu = new PersonsMenu();
         IList list = new PersonsList();
