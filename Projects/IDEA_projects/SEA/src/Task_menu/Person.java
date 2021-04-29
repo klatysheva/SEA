@@ -1,4 +1,4 @@
-package menu_task;
+package Task_menu;
 
 public class Person /* extends Object */ {
     private String name;
@@ -6,11 +6,11 @@ public class Person /* extends Object */ {
 
     public Person() {
     }
+
     public Person(String name, String surname) {
         this.name = name;
         this.surname = surname;
     }
-
 
     public void setName(String name) {
         this.name = name;

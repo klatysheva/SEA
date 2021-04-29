@@ -1,4 +1,4 @@
-package menu_task;
+package Task_menu;
 
 public class Test {
     public static void main(String[] args) {
@@ -10,7 +10,10 @@ public class Test {
         Person person2 = new Person("Anthony", "Clark");
         Person person3 = new Person("John", "Robinson");
         Person person4 = new Person("Sam", "Martin");
-        Person person5 = new Person("Susi", "White");
+
+        Person person5 = new Person();
+        person5.setName("Susi");
+        person5.setSurname("White");
 
         list.add(person);
         list.add(person1);

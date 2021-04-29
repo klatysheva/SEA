@@ -1,4 +1,4 @@
-package menu_task;
+package Task_menu;
 
 public class PersonsList implements IList {
     private Object[] persons = new Person[3];
