@@ -1,4 +1,4 @@
-package Task_child_id;
+package Task_BaseObject;
 
 public class Test_BaseObject {
     public static void main(String[] args) {

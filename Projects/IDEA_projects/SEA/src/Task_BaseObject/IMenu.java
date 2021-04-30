@@ -1,4 +1,4 @@
-package Task_child_id;
+package Task_BaseObject;
 
 public interface IMenu {
     void setList(IList list);

@@ -1,4 +1,4 @@
-package Task_child_id;
+package Task_BaseObject;
 
 public class PersonsList implements IList {
     private Object[] persons = new Person[3];

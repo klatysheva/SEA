@@ -1,4 +1,4 @@
-package Task_child_id;
+package Task_BaseObject;
 
 public class Person extends BaseObject {
     private String name;
@@ -26,8 +26,8 @@ public class Person extends BaseObject {
         return surname;
     }
 
-//    @Override
-//    public boolean equals(Object obj) {
+    @Override
+    public boolean equals(Object obj) {
 //        if (obj == null) // null check
 //        {
 //            return false;
@@ -35,15 +35,18 @@ public class Person extends BaseObject {
 //        if (this == obj) // self check
 //        {
 //            return true;
-//        }
-//        if (getClass() != obj.getClass()) {// type check
-//            //System.out.println("Objects of different classes");
-//            return false;
-//        }
-//
-//        // type check and cast
-//        Person person = (Person) obj; // cast to Person
-//        return Objects.equals(name, person.name)&&
-//                Objects.equals(surname, person.surname);
-//    }
+//        } //moved to the BaseObject
+        if (!super.equals(obj)) { // equals class from BaseObject since this class extends BaseObject
+            return false;
+        }
+
+        if (!(obj instanceof Person)) {// type check
+            //System.out.println("Objects of different classes");
+            return false;
+        }
+        // type check and cast
+        Person person = (Person) obj; // cast to Person
+        return ((person.name == this.name) && (person.surname == this.surname));
+
+    }
 }
