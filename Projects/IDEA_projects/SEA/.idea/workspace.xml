@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85e24375-139d-49c7-912f-2ef9ef67a8f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/singletonApp/SingletonApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_BaseObject/BaseObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_BaseObject/IList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/IMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_BaseObject/IMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_BaseObject/Objects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_BaseObject/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_BaseObject/PersonsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_BaseObject/PersonsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task_child_id/Test_BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task_BaseObject/Test_BaseObject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
