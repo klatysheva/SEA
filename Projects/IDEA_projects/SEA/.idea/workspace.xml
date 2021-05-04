@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85e24375-139d-49c7-912f-2ef9ef67a8f7" name="Default Changelist" comment="" />
+    <list default="true" id="85e24375-139d-49c7-912f-2ef9ef67a8f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/BaseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/IEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/IEventRegistration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/IList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/IMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/Listeners/MyObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/Listeners/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/Listeners/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/Listeners/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/PersonsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/PersonsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/SeminarApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task_Listeners/Test_Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Quests/Quest856/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Quests/Quest856/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Quests/Quest856/Movies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/BaseObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/IList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/IMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Objects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/PersonsList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/PersonsMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_child_id/Test_BaseObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/ClassWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_menu/ClassWork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/IList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_menu/IList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/IMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_menu/IMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/Objects.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_menu/Objects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_menu/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/PersonsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_menu/PersonsList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/PersonsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_menu/PersonsMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SEA/Task_menu/Test_MenuApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/Task_menu/Test_MenuApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_BaseObject/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_BaseObject/BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_BaseObject/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_BaseObject/IList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_BaseObject/IMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_BaseObject/IMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_BaseObject/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_BaseObject/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_BaseObject/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_BaseObject/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_BaseObject/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_BaseObject/PersonsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_BaseObject/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_BaseObject/PersonsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_BaseObject/Test_BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_BaseObject/Test_BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_menu/ClassWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_menu/IList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/IMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_menu/IMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_menu/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_menu/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_menu/PersonsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_menu/PersonsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task_menu/Test_MenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_menu/Test_MenuApp.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +70,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1raLFkUfFcpNtT7kVYg8PT3Rbv2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,7 +87,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../SEAKurs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -39,23 +99,11 @@
       <recent name="C:\Users\klatyshe\Desktop\Academy\GitHub\Projects\IDEA_projects\SEA\src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="task_Listeners" />
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Movies_V2">
-    <configuration name="ClassWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_menu.ClassWork" />
-      <module name="SEA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Task_menu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Movies_V2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quests.Quest856.Movies_V2" />
       <module name="SEA" />
@@ -69,12 +117,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_BaseObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_BaseObject.Test_BaseObject" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_Listeners.Listeners.Test" />
       <module name="SEA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task_BaseObject.*" />
+          <option name="PATTERN" value="task_Listeners.Listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_BaseObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_BaseObject.Test_BaseObject" />
+      <module name="SEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task_BaseObject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Listeners" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="task_Listeners.Test_Listeners" />
+      <module name="SEA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="task_Listeners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,11 +157,11 @@
       </method>
     </configuration>
     <configuration name="Test_MenuApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Task_menu.Test_MenuApp" />
+      <option name="MAIN_CLASS_NAME" value="task_menu.Test_MenuApp" />
       <module name="SEA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Task_menu.*" />
+          <option name="PATTERN" value="task_menu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,10 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test_Listeners" />
         <item itemvalue="Application.Movies_V2" />
         <item itemvalue="Application.Test_BaseObject" />
         <item itemvalue="Application.Test_MenuApp" />
-        <item itemvalue="Application.ClassWork" />
       </list>
     </recent_temporary>
   </component>
@@ -132,35 +207,35 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
           <line>29</line>
-          <properties class="Task_BaseObject.BaseObject" method="equals">
+          <properties class="task_BaseObject.BaseObject" method="equals">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
           <line>47</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
           <line>46</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
           <line>40</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
           <line>35</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
           <line>30</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
