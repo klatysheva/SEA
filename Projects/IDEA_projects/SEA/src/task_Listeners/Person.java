@@ -28,24 +28,18 @@ public class Person extends BaseObject {
 
     @Override
     public boolean equals(Object obj) {
-//        if (obj == null) // null check
-//        {
-//            return false;
-//        }
-//        if (this == obj) // self check
-//        {
-//            return true;
-//        } //moved to the BaseObject
+//        if (obj == null) { return false; } // null check, moved to the BaseObject
+//        if (this == obj) { return true;} // self check, moved to the BaseObject
         if (!super.equals(obj)) { // equals class from BaseObject since this class extends BaseObject
             return false;
         }
 
-        if (!(obj instanceof task_BaseObject.Person)) {// type check
+        if (!(obj instanceof Person)) {// type check
             //System.out.println("Objects of different classes");
             return false;
         }
         // type check and cast
-        task_BaseObject.Person person = (task_BaseObject.Person) obj; // cast to Person
+        Person person = (Person) obj; // cast to Person
         return (person.getName().equals(this.name) && person.getSurname().equals(this.surname));
     }
 }

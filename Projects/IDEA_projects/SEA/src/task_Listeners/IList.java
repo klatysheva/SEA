@@ -27,7 +27,16 @@ public interface IList {
     //returns the number of elements in this list
     int size ();
 
+    //returns the number of free places in this list
+    int freePlaces();
+
     //returns the length this list
     int getLENGTH();
+
+    //return true if the list is completely full
+    boolean isFull();
+
+    //return true if the list is completely empty
+    boolean isEmpty();
 
 }

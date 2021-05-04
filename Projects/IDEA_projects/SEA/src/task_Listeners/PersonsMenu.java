@@ -2,17 +2,20 @@ package task_Listeners;
 
 import java.util.Scanner;
 
-public class PersonsMenu implements IMenu, IEventListener {
+public class PersonsMenu extends BaseObject implements IMenu, IEventListener {
     private IList list;
 
     public PersonsMenu(IList list) {
         this.list = list;
+
     }
 
     public void receive(Event event ){
         System.out.println(event.description);
+        System.out.println();
         showList();
-    };
+    }
+
 
     @Override
     public void setList(IList list) {
@@ -22,11 +25,16 @@ public class PersonsMenu implements IMenu, IEventListener {
 
     public void showMenu() {
         System.out.println("Select option:");
-        System.out.println("1 - input person");
-        System.out.println("2 - show size");
-        System.out.println("3 - list all persons");
-        System.out.println("4 - remove person by its index or name&surname");
-        System.out.println("5 - remove all");
+        if (!list.isFull()) {
+            System.out.println("1 - input person");
+        }
+        System.out.println("2 - show occupied places");
+        System.out.println("3 - show free places");
+        if (!list.isEmpty()) {
+            System.out.println("4 - remove person by its index or name&surname");
+            System.out.println("5 - remove all");
+        }
+        System.out.println("6 - list all persons");
         System.out.println("0 - exit");
 
     }
@@ -46,7 +54,12 @@ public class PersonsMenu implements IMenu, IEventListener {
     }
 
     public void selectOption() { //keepAsking
-        String result;
+        String result = "";
+//        while (!result.equals("0")) {
+//            showMenu();
+//            result = checkMenu();
+//        }
+
         do {
             showMenu();
             result = checkMenu();
@@ -59,6 +72,10 @@ public class PersonsMenu implements IMenu, IEventListener {
         result = inputLine();
         switch (result) {
             case "1":
+                if (list.isFull()) {
+                    System.out.println("Please chose an valid number. To exit input 0.");
+                    break;
+                }
                 System.out.println("It's 1. Input person.");
                 inputPerson();
                 break;
@@ -67,30 +84,40 @@ public class PersonsMenu implements IMenu, IEventListener {
                 showSize();
                 break;
             case "3":
-                System.out.println("It's 3. List all persons.");
-                showList(); //listAllPerson
+                System.out.println("It's 3. Show free places.");
+                showFreePlaces();
                 break;
             case "4":
+                if (list.isEmpty()) {
+                    System.out.println("Please chose an valid number. To exit input 0.");
+                    break;
+                }
                 System.out.println("It's 4. Remove person.");
                 removePerson();
                 break;
             case "5":
+                if (list.isEmpty()) {
+                    System.out.println("Please chose an valid number. To exit input 0.");
+                    break;
+                }
                 System.out.println("It's 5. Remove all.");
                 removeAll();
+                break;
+            case "6":
+                System.out.println("It's 6. List all persons.");
+                showList(); //listAllPerson
                 break;
             case "0":
                 System.out.println("It's 0. Exit.");
                 break;
             default:
-                System.out.println("Please chose an valid number. To show all options input 1. 0 to exit.");
+                System.out.println("Please chose an valid number. To exit input 0.");
         }
         return result;
     }
 
     public void inputPerson() {
-        //? to check if list is full
-
-        if (list.size() == list.getLENGTH()) {
+        if (list.isFull()) {
             System.out.println("List is full. Please chose another option.");
             return;
         }
@@ -103,7 +130,6 @@ public class PersonsMenu implements IMenu, IEventListener {
         person.setName(name);
         person.setSurname(surname);
         list.add(person);
-        System.out.println(name + " " + surname + " added.");
 
     }
 
@@ -141,14 +167,22 @@ public class PersonsMenu implements IMenu, IEventListener {
                 System.out.println((i+1) + ". " + person.getSurname() + " " + person.getName());
             }
         }
-        System.out.println("Persons count: " + list.size() + ".");
+        System.out.println("-------------------");
+        showSize();
+        showFreePlaces();
         System.out.println();
     }
 
     public void showSize() {
         System.out.println("There are " + list.size() + " element(s) in the list.");
+    }
+
+    public void showFreePlaces() {
+        System.out.println("There are " + list.freePlaces() + " free place(s) in the list.");
         System.out.println();
     }
+
+
 
 //    public  void showFullList() {
 //        System.out.println("############### Persons List(+nulls and references) #");
