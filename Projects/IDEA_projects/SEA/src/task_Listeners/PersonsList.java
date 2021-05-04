@@ -43,12 +43,12 @@ public class PersonsList extends BaseObject implements IList, IEventRegistration
         if (size() < persons.length ) {
             persons [size()] = person;
             //System.out.println(person.getSurname() + " " + person.getName()  + " added to the list under #" + size() + ".");
-            Event personAdded = new Event("personAdded", "Event: "+ person.getSurname() + " " + person.getName()  + " added to the list under #" + size() + ".");
+            Event personAdded = new Event("personAdded", person.getSurname() + " " + person.getName()  + " added to the list under #" + size() + ".");
             this.eventListener.receive(personAdded);
             if (isFull()) {
-                Event listIsFull = new Event("listIsFull", "Event: list is full.");
+                Event listIsFull = new Event("listIsFull", "List is full.");
                 this.eventListener.receive(listIsFull);
-            };
+            }
             return true;
         }
         return false;

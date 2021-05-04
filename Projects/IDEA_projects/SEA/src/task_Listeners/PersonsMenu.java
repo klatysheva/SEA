@@ -11,7 +11,7 @@ public class PersonsMenu extends BaseObject implements IMenu, IEventListener {
     }
 
     public void receive(Event event ){
-        System.out.println(event.description);
+        System.out.println("Event: " + event.description);
         System.out.println();
         showList();
     }
@@ -76,15 +76,15 @@ public class PersonsMenu extends BaseObject implements IMenu, IEventListener {
                     System.out.println("Please chose an valid number. To exit input 0.");
                     break;
                 }
-                System.out.println("It's 1. Input person.");
+                System.out.println("1. Input person.");
                 inputPerson();
                 break;
             case "2":
-                System.out.println("It's 2. Show size.");
+                System.out.println("2. Show size.");
                 showSize();
                 break;
             case "3":
-                System.out.println("It's 3. Show free places.");
+                System.out.println("3. Show free places.");
                 showFreePlaces();
                 break;
             case "4":
@@ -92,7 +92,7 @@ public class PersonsMenu extends BaseObject implements IMenu, IEventListener {
                     System.out.println("Please chose an valid number. To exit input 0.");
                     break;
                 }
-                System.out.println("It's 4. Remove person.");
+                System.out.println("4. Remove person.");
                 removePerson();
                 break;
             case "5":
@@ -100,15 +100,15 @@ public class PersonsMenu extends BaseObject implements IMenu, IEventListener {
                     System.out.println("Please chose an valid number. To exit input 0.");
                     break;
                 }
-                System.out.println("It's 5. Remove all.");
+                System.out.println("5. Remove all.");
                 removeAll();
                 break;
             case "6":
-                System.out.println("It's 6. List all persons.");
+                System.out.println("6. List all persons.");
                 showList(); //listAllPerson
                 break;
             case "0":
-                System.out.println("It's 0. Exit.");
+                System.out.println("0. Exit.");
                 break;
             default:
                 System.out.println("Please chose an valid number. To exit input 0.");
@@ -170,7 +170,6 @@ public class PersonsMenu extends BaseObject implements IMenu, IEventListener {
         System.out.println("-------------------");
         showSize();
         showFreePlaces();
-        System.out.println();
     }
 
     public void showSize() {
@@ -181,8 +180,6 @@ public class PersonsMenu extends BaseObject implements IMenu, IEventListener {
         System.out.println("There are " + list.freePlaces() + " free place(s) in the list.");
         System.out.println();
     }
-
-
 
 //    public  void showFullList() {
 //        System.out.println("############### Persons List(+nulls and references) #");
