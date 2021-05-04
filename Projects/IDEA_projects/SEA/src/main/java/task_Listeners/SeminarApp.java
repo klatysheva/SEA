@@ -3,8 +3,8 @@ package task_Listeners;
 public class SeminarApp extends Child {
     //private static SeminarApp thisSeminarApp;
 
-    public void run (String[] args, String personName, String personSurame) {
-        Person person = new Person(personName, personSurame);
+    public void run (String[] args, String personName, String personSurname) {
+        Person person = new Person(personName, personSurname);
         System.out.println("Hello, " + person.getName() + "!");
         //test(person);
     }

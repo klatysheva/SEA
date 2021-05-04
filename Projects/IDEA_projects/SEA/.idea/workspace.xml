@@ -3,12 +3,76 @@
   <component name="ChangeListManager">
     <list default="true" id="85e24375-139d-49c7-912f-2ef9ef67a8f7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/task_Listeners/PersonsList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/task_Listeners/PersonsList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/task_Listeners/PersonsMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/task_Listeners/PersonsMenu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SEA/task_Listeners/Test_Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SEA/task_Listeners/Test_Listeners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_Listeners/IEventRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_Listeners/IEventRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_Listeners/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_Listeners/PersonsList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task_Listeners/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/task_Listeners/PersonsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SEA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SEA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quests/Quest853/noticeMe/Senpai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quests/Quest853/noticeMe/Senpai.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quests/Quest856/ArraysAndItteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quests/Quest856/ArraysAndItteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quests/Quest856/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quests/Quest856/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quests/Quest856/Movies_V1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quests/Quest856/Movies_V1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quests/Quest856/Movies_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Quests/Quest856/Movies_V2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/MyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/task_persons/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/task_persons/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/task_persons/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/task_persons/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/task_persons/PersonsGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/task_persons/PersonsGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/task_persons/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrays/task_persons/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controlFlow/ControlFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlFlow/ControlFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controlFlow/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controlFlow/Examples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/MathFunctionsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions/MathFunctionsBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/MyFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions/MyFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/functions/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/IList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/PersonsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/otherPersonGroup/PersonsGroupNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/otherPersonGroup/PersonsGroupNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/otherPersonGroup/PersonsInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/otherPersonGroup/PersonsInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_lang_Object/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_lang_Object/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_lang_Object/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_lang_Object/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_lang_Object/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_lang_Object/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_lang_Object/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_lang_Object/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_lang_Object/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_lang_Object/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java_lang_Object/TestCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_lang_Object/TestCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Examples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Examples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objects/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operators/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/operators/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singletonApp/SingletonApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/singletonApp/SingletonApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_BaseObject/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_BaseObject/BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_BaseObject/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_BaseObject/IList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_BaseObject/IMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_BaseObject/IMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_BaseObject/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_BaseObject/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_BaseObject/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_BaseObject/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_BaseObject/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_BaseObject/PersonsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_BaseObject/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_BaseObject/PersonsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_BaseObject/Test_BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_BaseObject/Test_BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/BaseObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/BaseObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/IEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/IEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/IEventRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/IEventRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/IList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/IMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/IMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/Listeners/MyObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/Listeners/MyObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/Listeners/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/Listeners/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/Listeners/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/Listeners/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/Listeners/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/Listeners/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/PersonsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/PersonsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/SeminarApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/SeminarApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_Listeners/Test_Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_Listeners/Test_Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_menu/ClassWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_menu/ClassWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_menu/IList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_menu/IList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_menu/IMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_menu/IMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_menu/Objects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_menu/Objects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_menu/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_menu/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_menu/PersonsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_menu/PersonsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_menu/PersonsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_menu/PersonsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task_menu/Test_MenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task_menu/Test_MenuApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Maven/FirstMavenProject/src/main/java/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Maven/FirstMavenProject/src/main/java/Operators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +117,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\klatyshe\Desktop\Academy\GitHub\Projects\IDEA_projects\SEA\src\2904_child_id_task" />
       <recent name="C:\Users\klatyshe\Desktop\Academy\GitHub\Projects\IDEA_projects\SEA\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\klatyshe\Desktop\Academy\GitHub\Projects\IDEA_projects\SEA\src\main\java" />
+      <recent name="C:\Users\klatyshe\Desktop\Academy\GitHub\Projects\IDEA_projects\SEA" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="task_Listeners" />
@@ -155,7 +223,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/interfaces/PersonsList.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/PersonsList.java</url>
           <line>5</line>
           <properties class="interfaces.PersonsList" method="add">
             <option name="EMULATED" value="true" />
@@ -163,7 +231,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/task_BaseObject/BaseObject.java</url>
           <line>29</line>
           <properties class="task_BaseObject.BaseObject" method="equals">
             <option name="EMULATED" value="true" />
@@ -171,27 +239,27 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/task_BaseObject/BaseObject.java</url>
           <line>47</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/task_BaseObject/BaseObject.java</url>
           <line>46</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/task_BaseObject/BaseObject.java</url>
           <line>40</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/task_BaseObject/BaseObject.java</url>
           <line>35</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/task_BaseObject/BaseObject.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/task_BaseObject/BaseObject.java</url>
           <line>30</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
