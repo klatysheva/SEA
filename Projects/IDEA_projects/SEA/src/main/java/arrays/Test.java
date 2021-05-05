@@ -1,6 +1,6 @@
 package arrays;
 
-import java_lang_Object.Person;
+import arrays.task_persons.Person;
 
 public class Test {
     public static void main(String[] args) {
